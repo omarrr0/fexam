@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عيد ميلاد سعيد</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="backgroundMusic" loop>
+        <source src="music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div id="loadingScreen" class="loading-screen">
+        
+        <div class="loading-content">
+            <div class="spinning-cake">🎂</div>
+            <p class="loading-text">مساءُ الخير لمهندستنا أهلة وقد أَكمَلَت التاسعةَ عشرة من عمرها ❤️</p>
+            
+        </div>
+    </div>
+
+    <div id="starsContainer" class="stars-container"></div>
+
+    <div id="mainContent" class="main-content hidden">
+        
+        <div id="firstMessage" class="message-container hidden">
+            <p id="line1" class="typewriter-text"></p>
+            <p id="line2" class="typewriter-text"></p>
+            <p id="line3" class="typewriter-text date-text"></p>
+        </div>
+
+        <div id="secondMessage" class="message-container hidden">
+            <div class="moon-container">
+                <img id="moonImage" src="Ahela.jpeg" alt="صورة القمر" class="moon-image hidden" />
+            </div>
+            <p id="moonLine1" class="typewriter-text"></p>
+            <p id="moonLine2" class="typewriter-text"></p>
+            <p id="moonLine3" class="typewriter-text"></p>
+        </div>
+
+        <div id="thirdMessage" class="message-container hidden">
+            <p id="thirdLine1" class="typewriter-text"></p>
+            <p id="thirdLine2" class="typewriter-text heart-text"></p>
+        </div>
+
+        <div id="celebrationContainer" class="celebration-container hidden">
+            <div id="confetti"></div>
+            <div id="stars"></div>
+            <div id="sparkles"></div>
+        </div>
+
+        <div id="finalMessage" class="final-message hidden">
+<h1 class="final-text glowing">
+كُلُّ عامٍ وأنتِ في خيرٍ وسلام،  
+تُزهِرين كما يليقُ بقلبٍ نقيٍّ كقلبِك.  
+أسألُ الله أن يملأَ أيامكِ فرحًا،  
+ويهبَكِ من الأمنياتِ أصدقَها، ومن الخيرِ أوفرَه.  
+وأن أراكِ دومًا باسمةً، مُطمئنّةَ الخاطر ❤️
+</h1>        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
